@@ -1,0 +1,25 @@
+4. Difference between map(), filter(), and reduce()
+
+1. map()
+Applies a function to every element in an iterable.
+Returns a new iterable (map object).
+nums = [1, 2, 3, 4]
+squares = list(map(lambda x: x**2, nums))
+print(squares)  # [1, 4, 9, 16]
+
+
+2. filter()
+Applies a function that returns True/False to each element.
+Keeps only elements that satisfy the condition.
+nums = [1, 2, 3, 4, 5, 6]
+evens = list(filter(lambda x: x % 2 == 0, nums))
+print(evens)  # [2, 4, 6]
+
+
+3. reduce() (from functools)
+Repeatedly applies a function to reduce the iterable to a single value.
+Must be imported from functools.
+from functools import reduce
+nums = [1, 2, 3, 4]
+product = reduce(lambda x, y: x * y, nums)
+print(product)  # 24

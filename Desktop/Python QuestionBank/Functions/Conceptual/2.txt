@@ -1,0 +1,13 @@
+2. Explain scope of variables (local, global, nonlocal).
+
+. Local Scope
+Variables defined inside a function.
+Accessible only within that function.
+
+. Global Scope
+Variables defined outside all functions.
+Accessible anywhere in the program, unless shadowed by a local variable.
+
+. Nonlocal Scope
+Used in nested functions.
+Refers to a variable in the nearest enclosing (non-global) scope.

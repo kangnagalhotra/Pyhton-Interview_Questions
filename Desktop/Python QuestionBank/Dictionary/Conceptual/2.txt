@@ -1,0 +1,4 @@
+2. Difference between get() and direct key access.
+
+Direct key access (dict[key]) retrieves the value for a key, but raises a KeyError if the key does not exist. It’s used when you are sure the key is present.
+get() method (dict.get(key)) also retrieves the value for a key, but returns None (or a specified default value) if the key is missing. It’s safer when the key may or may not exist.

@@ -1,0 +1,5 @@
+3.How are tuples used as dictionary keys?
+
+Tuples can be used as dictionary keys because they are immutable. In Python, dictionary keys must be hashable, which generally means their value cannot change.
+Immutable objects (like tuples, strings, numbers) are hashable.
+Mutable objects (like lists, dictionaries, sets) are not hashable and cannot be used as keys.

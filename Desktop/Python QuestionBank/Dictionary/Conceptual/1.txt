@@ -1,0 +1,8 @@
+1. What are hashmaps? How are they related to Python dictionaries?
+
+A hashmap is a data structure that stores data as key-value pairs.
+
+In Python, dictionaries (dict) are implemented as hashmaps.
+Keys in a dictionary must be hashable (immutable types like strings, numbers, tuples).
+Values can be of any type.
+This allows Python dictionaries to have fast lookups, insertions, and deletions.

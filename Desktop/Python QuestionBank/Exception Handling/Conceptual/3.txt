@@ -1,0 +1,11 @@
+3. What are custom exceptions? Why would you use them?
+
+Custom Exceptions
+A custom exception is a user-defined error in Python.
+You create it by subclassing the built-in Exception class.
+Used to handle specific situations that aren’t covered by standard exceptions.
+
+Why use custom exceptions?
+Makes code more readable and self-explanatory.
+Allows specific error handling for your program’s logic.
+Helps in debugging and maintenance.

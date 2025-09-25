@@ -1,0 +1,6 @@
+2.How are lists stored in memory (mutable property)?
+
+Lists are mutable, so their elements can be changed, added, or removed after creation.
+In memory, a list stores references (pointers) to objects, not the actual values themselves.
+Because of this, when you modify a list (e.g., append, insert), the list object stays at the same memory location, but its contents (the references) are updated.
+This is why lists are mutable and changes affect the original list.

@@ -1,0 +1,22 @@
+3. What is multiple inheritance? Any drawbacks?
+
+When a class inherits from more than one parent class, it’s called multiple inheritance.
+class Parent1:
+    def func1(self):
+        print("Parent1 function")
+
+class Parent2:
+    def func2(self):
+        print("Parent2 function")
+
+class Child(Parent1, Parent2):
+    pass
+
+c = Child()
+c.func1()  # Parent1 function
+c.func2()  # Parent2 function
+
+Drawbacks / Problems
+Diamond problem – ambiguity when multiple parents have the same method.
+Code complexity – harder to read, maintain, and debug.
+Method resolution order (MRO) – Python uses MRO to decide which parent method to call, which can confuse beginners.

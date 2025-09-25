@@ -1,0 +1,7 @@
+4. What is slicing? Give examples.
+
+Slicing in Python is a way to extract a portion of a sequence (like a string, list, or tuple) using the format:
+start,stop,step
+
+a=[1,2,3,4]
+print(a[1:4:2])

@@ -1,0 +1,8 @@
+1. Difference between syntax errors and exceptions.
+
+| Feature           | Syntax Error                               | Exception                            |
+| ----------------- | ------------------------------------------ | ------------------------------------ |
+| **Definition**    | Error in code **structure or grammar**     | Error **during program execution**   |
+| **When Detected** | Detected **before running** (compile time) | Detected **while running** (runtime) |
+| **Example**       | `print("Hello`  → missing closing quote    | `10 / 0` → division by zero          |
+| **Handling**      | Cannot handle; must fix code               | Can be handled using `try-except`    |

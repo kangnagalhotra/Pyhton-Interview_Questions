@@ -1,0 +1,7 @@
+3. Explain dictionary comprehension with an example.
+
+Dictionary comprehension is a concise way to create dictionaries in a single line,
+
+number =[1,2,3,4]
+square = [i: i**2 for i in number]
+print(square)

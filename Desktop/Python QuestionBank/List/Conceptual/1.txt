@@ -1,0 +1,5 @@
+1.Difference between append(), extend(), and insert().
+
+append(): Adds a single element to the end of the list. It modifies the original list and does not create a new one.
+extend(): Adds all elements from another iterable (like a list, tuple, or set) to the end of the original list. It also modifies the list in place.
+insert(): Inserts an element at a specific index in the list. The original list is updated, and no new list is created.

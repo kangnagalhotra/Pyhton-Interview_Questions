@@ -1,0 +1,9 @@
+4.When would you use a list vs a tuple?
+
+Use a list when you need a mutable sequence:
+Elements can be added, removed, or changed.
+Example: storing data that may change, like a to-do list or dynamic dataset.
+
+Use a tuple when you need an immutable sequence:
+Elements cannot be changed, so it’s safer for fixed data.
+Example: storing coordinates (x, y), RGB values, or dictionary keys.

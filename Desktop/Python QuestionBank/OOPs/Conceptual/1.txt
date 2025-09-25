@@ -1,0 +1,27 @@
+1. What are the 4 pillars of OOP? Explain with examples.
+
+Encapsulation – Bundling data and methods in a class; controls access.
+class Person:
+    def __init__(self, name):
+        self.__name = name  # private attribute
+    def get_name(self):
+        return self.__name
+
+Abstraction – Hiding complex details; exposing only essential features.
+from abc import ABC, abstractmethod
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+Inheritance – Reusing code from another class.
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+class Dog(Animal):
+    def speak(self):
+        print("Dog barks")
+
+Polymorphism – Same interface, different behavior.
+def make_sound(animal):
+    animal.speak()  # works for Dog, Cat, etc.

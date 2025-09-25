@@ -1,0 +1,1 @@
+# Append logs to a text file with timestamp.

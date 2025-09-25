@@ -1,0 +1,3 @@
+1. What are Python’s key features that make it popular in data analysis?
+
+Python is popular in data analysis because it’s easy to learn, has powerful libraries (NumPy, Pandas, Matplotlib, Scikit-learn), supports integration with databases and big data tools, works well in Jupyter Notebooks, is open-source with strong community support, and is cross-platform and versatile.

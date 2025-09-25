@@ -1,0 +1,6 @@
+2. Explain try-except-else-finally flow.
+
+try block → Code that might raise an exception goes here.
+except block → Runs only if an exception occurs in the try block.
+else block → Runs only if no exception occurs in the try block.
+finally block → Runs always, whether an exception occurred or not.

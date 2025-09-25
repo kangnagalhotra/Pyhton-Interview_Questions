@@ -1,0 +1,7 @@
+2. Difference between method overloading and overriding.
+
+Method Overloading → Same method name, different number or type of parameters in the same class.
+Python doesn’t support it directly, but you can use default or *args parameters.
+
+Method Overriding → A child class defines a method with the same name as a method in the parent class.
+Used to change or extend behavior.

@@ -1,0 +1,9 @@
+3.How do sort() and sorted() differ?
+
+-> sort()
+Sorts a list in-place (modifies the original list).
+Returns None.
+Can only be used on lists.
+-> sorted()
+Returns a new sorted list from any iterable (list, tuple, string, etc.).
+Original object remains unchanged.

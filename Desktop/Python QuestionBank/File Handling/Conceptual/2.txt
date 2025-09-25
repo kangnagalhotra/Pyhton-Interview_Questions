@@ -1,0 +1,9 @@
+2. Why use "with open()" over "open()"?
+
+Using open()
+You must manually close the file with file.close().
+If you forget, it may cause memory leaks or file locks.
+
+Using with open()
+File is automatically closed when the block ends, even if an error occurs.
+Safer and cleaner.

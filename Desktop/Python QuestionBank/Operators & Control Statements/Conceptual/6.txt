@@ -1,0 +1,5 @@
+6.Difference between continue, break, and pass.
+
+break → Exits the loop completely.
+continue → Skips the current iteration and moves to the next.
+pass → Does nothing (placeholder for future code).

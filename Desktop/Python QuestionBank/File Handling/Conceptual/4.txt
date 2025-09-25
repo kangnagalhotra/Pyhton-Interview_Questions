@@ -1,0 +1,10 @@
+4. Explain DictReader and DictWriter.
+
+. csv.DictReader
+Reads a CSV file into a sequence of OrderedDict objects.
+Each row is a dictionary where keys are column headers and values are row data.
+
+2. csv.DictWriter
+Writes data to a CSV file from dictionaries.
+You define fieldnames (column headers).
+Each dictionary you write must have keys matching the fieldnames.

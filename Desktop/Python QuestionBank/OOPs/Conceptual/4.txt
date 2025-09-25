@@ -1,0 +1,7 @@
+4. What are private and protected members in Python?
+
+1. Protected Members
+A protected member is meant to be accessible only within the class and its subclasses.
+(_)
+2. Private Members
+A private member is meant to be accessible only within the class(__)

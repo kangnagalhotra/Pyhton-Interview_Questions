@@ -1,0 +1,4 @@
+5. Explain mutable vs immutable objects .
+
+Mutable objects → Can be changed after creation (values can be updated without creating a new object).
+Immutable objects → Cannot be changed after creation (any modification creates a new object).

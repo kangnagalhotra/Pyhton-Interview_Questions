@@ -1,0 +1,4 @@
+3.Explain is vs ==
+
+is → checks object identity (whether two variables point to the same object in memory).
+== → checks value equality (whether the values of two objects are the same).

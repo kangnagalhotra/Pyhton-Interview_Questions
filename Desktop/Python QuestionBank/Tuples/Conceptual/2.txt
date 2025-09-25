@@ -1,0 +1,11 @@
+2.Can a tuple contain mutable elements?
+
+Yes, a tuple can contain mutable elements, such as lists or dictionaries.
+The tuple itself is immutable, meaning you cannot change which objects are in the tuple or their order.
+However, if a tuple contains a mutable object, that object can be modified.
+
+t = (1, 2, [3, 4])
+t[2].append(5)   # modifies the list inside the tuple
+print(t)          # Output: (1, 2, [3, 4, 5])
+
+# t[0] = 10  --> ❌ Error: cannot change tuple elements

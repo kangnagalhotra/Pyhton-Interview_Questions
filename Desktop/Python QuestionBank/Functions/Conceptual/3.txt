@@ -1,0 +1,11 @@
+3. What are lambda functions? Where would you use them?
+
+A lambda function is a small anonymous function defined with the keyword lambda.
+It can take any number of arguments, but has only one expression.
+
+Where to use lambda functions?
+Short, throwaway functions where defining a full def function is unnecessary.
+Inside higher-order functions like map(), filter(), sorted(), reduce().
+
+square = lambda x: x**2
+print(square(5))   # 25

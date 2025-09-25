@@ -1,0 +1,6 @@
+1. Difference between *args and **kwargs.
+
+*args
+Collects extra positional arguments into a tuple.
+**kwargs
+Collects extra keyword arguments into a dictionary.

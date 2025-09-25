@@ -1,0 +1,13 @@
+1. Why are tuples faster than lists?
+
+Immutability
+Tuples cannot be changed after creation.
+Python can optimize memory allocation and access because it knows the contents won’t change.
+
+Less memory overhead
+Lists store extra information to support dynamic resizing (adding/removing elements).
+Tuples don’t need this extra space, making them lighter and quicker.
+
+Faster operations
+Accessing tuple elements is slightly faster than list elements.
+No overhead for methods that modify content (like append, extend, etc.).

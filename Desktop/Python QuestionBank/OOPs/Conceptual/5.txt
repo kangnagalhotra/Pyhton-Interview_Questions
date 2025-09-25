@@ -1,0 +1,4 @@
+5. How is abstraction achieved in Python?
+
+Abstraction means hiding complex implementation details and showing only essential features to the user.
+In Python, abstraction is achieved using abstract classes and abstract methods from the abc module.

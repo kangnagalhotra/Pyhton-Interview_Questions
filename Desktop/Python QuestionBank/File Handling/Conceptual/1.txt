@@ -1,0 +1,8 @@
+1. Difference between text and binary modes.
+
+| Feature           | Text Mode (`"t"`)                    | Binary Mode (`"b"`)                     |
+| ----------------- | ------------------------------------ | --------------------------------------- |
+| **Default**       | Yes (`open("file.txt", "r")`)        | No (must use `"rb"`, `"wb"`, etc.)      |
+| **Data Handling** | Reads/Writes **strings** (`str`)     | Reads/Writes **bytes** (`bytes`)        |
+| **Encoding**      | Uses encoding (UTF-8 by default)     | No encoding (raw data)                  |
+| **Use Case**      | Text files (`.txt`, `.csv`, `.json`) | Non-text files (`.jpg`, `.png`, `.exe`) |

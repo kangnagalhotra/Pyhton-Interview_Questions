@@ -1,0 +1,1 @@
+# Write a dictionary into a CSV file.
